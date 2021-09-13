@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import { View, FlatList, StyleSheet, Text, StatusBar, TouchableHighlight, TouchableOpacity } from 'react-native';
+import { View, FlatList, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { CheckBox } from 'react-native-elements'
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import d1_Data from './assets/classData/教育.json'
-import SelectMultiple from 'react-native-select-multiple'
 
 export default function App() {
 
